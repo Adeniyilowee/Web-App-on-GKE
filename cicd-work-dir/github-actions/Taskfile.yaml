@@ -16,7 +16,7 @@ tasks:
     cmds:
       - cmd: |
           if [ -z "{{.NEW_TAG}}" ] || [ -z "{{.IDENTIFIER_COMMENT}}" ] || [ -z "{{.STARTING_PATH}}" ]; then
-            echo "Usage: task update-image-tags NEW_TAG=new-tag IDENTIFIER_COMMENT='# THIS_IS_MY_IMAGE_TAG' STARTING_PATH=/path/to/start" && exit 1;
+            echo "Usage: task update-image-tags NEW_TAG=new-tag IDENTIFIER_COMMENT='# STAGING_IMAGE_TAG' STARTING_PATH=/path/to/start" && exit 1;
           fi
       - cmd: |
           echo "STARTING_PATH: {{ .STARTING_PATH }}"
