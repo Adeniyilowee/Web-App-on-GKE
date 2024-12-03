@@ -8,7 +8,7 @@ build-cluster/kind-bind-mount-2
 
 images
 clustersetup.md
-deployment-env/.helm-charts/
+deployment-env/
 klu.md
 cicd.md
 services.md
