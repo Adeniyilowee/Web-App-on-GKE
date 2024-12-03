@@ -1,5 +1,15 @@
 bin/
 **/.DS_STORE
+civosample.json
+build-cluster/kind-config.yaml
+build-cluster/kind-config.yaml.TEMPLATE
+build-cluster/kind-bind-mount-1
+build-cluster/kind-bind-mount-2
+
+images
+clustersetup.md
+deployment-env/.helm-charts
+klu.md
 cicd.md
 services.md
 cicd-work-dir/kluctl-gitops
