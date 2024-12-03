@@ -1,7 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.7/.schema/devbox.schema.json",
   "packages": [
-    "civo@latest",
     "envsubst@latest",
     "gh@latest",
     "go@latest",
@@ -24,7 +23,8 @@
     "tilt@latest",
     "yq-go@latest",
     "act@latest",
-    "kubent@latest"
+    "kubent@latest",
+    "civo@latest"
   ],
   "shell": {
     "init_hook": [
