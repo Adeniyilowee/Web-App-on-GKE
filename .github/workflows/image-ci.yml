@@ -116,3 +116,20 @@ jobs:
           base: main
           token: ${{ secrets.DOCKER_KUBERNETES_DEVOPS }}
           title: "Update image tags to (${{ needs.generate-image-tag.outputs.image_tag }})"
+
+      # - name: Send Slack Notification
+      #   uses: slackapi/slack-github-action@v1.23.0
+      #   with:
+      #     payload: |
+      #       {
+      #         "text": "Docker image successfully built and pushed to Docker Hub!",
+      #         "attachments": [
+      #           {
+      #             "color": "#36a64f",
+      #             "title": "Image Build Status",
+      #             "text": "Image has been built and pushed successfully."
+      #           }
+      #         ]
+      #       }
+      #   env:
+      #     SLACK_WEBHOOK_URL: $___{{ secrets.SLACK_WEBHOOK_URL }}
