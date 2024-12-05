@@ -85,23 +85,14 @@ GitHub Actions CI/CD Pipeline
 
 ---
 
-## **Learnings and Impact**
-
-Through this project, I achieved:
-- Proficiency in GitOps workflows using Kluctl.
-- Expertise in managing Kubernetes deployments in multi-cloud environments.
-- Advanced automation of CI/CD processes using GitHub Actions.
-- Deepened understanding of container orchestration, ingress management, and declarative infrastructure.
-
----
-
 ## **Why This Project?**
 
-This project demonstrates my ability to:
-- Architect scalable and efficient Kubernetes deployments.
-- Automate complex CI/CD pipelines with modern DevOps tools.
-- Apply GitOps principles for managing cloud-native applications.
-- Deliver reliable and secure web applications in production.
+I started this project to demonstrates the potential of several DevOps tools and my ability to:
+  - Architect scalable and efficient Kubernetes deployments in multi-cloud environment using Cloud APIs, Kubectl, Kubectx etc
+  - Automate comples CI/CD pipelines with modern DevOps tools like Github action, Kluctl GitOps, Helm Charts
+  - Apply GitOps principle in managing cloud-native applications
+  - Deliver reliable and secure web applications in production.
+  - Carry out container orchestration, ingress management, and declarative infrastructure.
 
 ---
 
