@@ -8,4 +8,6 @@ build-cluster/kind-bind-mount-2
 
 image_files/request-diagram.png
 image_files/screenshot.png
+image_files/web.png
+image_files/gke-metrics-viz.png
 sum-up.md

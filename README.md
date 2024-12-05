@@ -99,3 +99,10 @@ I started this project to demonstrates the potential of several DevOps tools and
 ---
 
 Feel free to explore the repository and reach out with any questions!
+
+---
+
+## **Supplementary Images**
+![Civo Kubernetes Cluster](image_files/civo-cluster.png)
+![GCP Kubernetes Cluster](image_files/gke-cluster.png)
+![Kluctl-Web-UI](image_files/kluctl-webui.png)
