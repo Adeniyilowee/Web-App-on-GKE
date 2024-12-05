@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: client-react-nginx
-          image: adniyi01/docker-kubernetes-client-react-nginx:{{ clientReact.version }}
+          image: adeniyi01/docker-kubernetes-client-react-nginx:{{ clientReact.version }}
           ports:
             - containerPort: 8080
               protocol: TCP
