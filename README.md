@@ -1,3 +1,5 @@
+![Build & Push Image](https://github.com/Adeniyilowee/Web-App-on-GKE/actions/workflows/image-ci.yml/badge.svg)
+
 # **Web Application Deployment to Kubernetes**
 
 This repository demonstrates a project where I designed and implemented the deployment of a simple web application to Kubernetes clusters using modern DevOps tools and GitOps principles. The project covers the complete CI/CD pipeline from building and testing container images to deploying on both **Google Kubernetes Engine (GKE)** (production) and **Civo Kubernetes** (staging).
