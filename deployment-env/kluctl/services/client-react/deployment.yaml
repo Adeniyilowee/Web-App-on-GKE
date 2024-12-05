@@ -3,4 +3,3 @@ vars:
 
 deployments:
   - path: manifests
-    validate: true
