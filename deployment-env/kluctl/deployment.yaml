@@ -9,4 +9,4 @@ deployments:
   - include: services
 
 commonLabels:
-  devopsdirective.com/course: "Web-app-on-GKE"
+  webapponk.com/test: "web-app-deployment"

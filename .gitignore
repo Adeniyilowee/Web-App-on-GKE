@@ -6,9 +6,6 @@ build-cluster/kind-config.yaml.TEMPLATE
 build-cluster/kind-bind-mount-1
 build-cluster/kind-bind-mount-2
 
-images
-clustersetup.md
-deployment-env/
-klu.md
-cicd.md
-services.md
+image_files/request-diagram.png
+image_files/screenshot.png
+sum-up.md

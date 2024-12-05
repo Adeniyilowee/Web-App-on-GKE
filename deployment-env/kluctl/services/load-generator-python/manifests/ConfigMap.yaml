@@ -7,5 +7,4 @@ metadata:
   namespace: web-app
 data:
   API_URL: http://api-node.web-app.svc.cluster.local:3000
-  # API_URL: http://api-golang.web-app.svc.cluster.local:8080
   DELAY_MS: "100"

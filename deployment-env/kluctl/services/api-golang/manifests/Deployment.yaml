@@ -6,7 +6,7 @@ metadata:
   labels:
     app: api-golang
 spec:
-  replicas: { { apiGolang.replicas } }
+  replicas: {{ apiGolang.replicas }}
   selector:
     matchLabels:
       app: api-golang
