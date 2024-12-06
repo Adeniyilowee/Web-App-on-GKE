@@ -71,7 +71,6 @@ GitHub Actions CI/CD Pipeline
 ```
 ![Deployment Flow Chart](image_files/webapp_deployment_flowchart.png)
 
-
 ---
 
 ## **Repository Highlights**
