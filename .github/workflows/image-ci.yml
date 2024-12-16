@@ -116,7 +116,6 @@ jobs:
           base: main
           token: ${{ secrets.DOCKER_KUBERNETES_DEVOPS }}
           title: "Update image tags to (${{ needs.generate-image-tag.outputs.image_tag }})"
-
       # - name: Send Slack Notification
       #   uses: slackapi/slack-github-action@v1.23.0
       #   with:
